@@ -1,0 +1,5 @@
+export const EVROPEYSKA_SOLIDARNIST = 'Європейська Солідарність'
+export const SLUGA_NARODU = 'Слуга Народа'
+export const BATKIVSCHYNA = 'Батьківщина'
+export const OPZJ = 'ОПЗЖ'
+export const GOLOS = 'Голос'

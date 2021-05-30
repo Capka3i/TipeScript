@@ -1,0 +1,7 @@
+# Project exclude paths
+/src/constanta/deputat-gender.js
+/src/constanta/Party.interface.js
+/src/members/member.class.js
+/src/party/party.class.js
+/src/VR/vr.class.js
+/src/app.js
