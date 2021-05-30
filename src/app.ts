@@ -2,6 +2,13 @@ import {VrClass} from "./VR/vr.class";
 import {PartyClass} from "./party/party.class";
 import {MemberClass} from "./members/member.class";
 import {EGender} from "./constanta/deputat-gender";
+import {
+    BATKIVSCHYNA,
+    EVROPEYSKA_SOLIDARNIST,
+    SLUGA_NARODU,
+    OPZj,
+    GOLOs
+} from "./constanta/Party.interface";
 
 
 export let PetroRoshen = new MemberClass('Петро Олейксійович Порошенко', 65, EGender.Male, 90, 680000.6)
@@ -34,11 +41,11 @@ export let opzj = [MVV, KIV, BYA, RVZ, KTR];
 export let golos = [OAP, PNP, RKO, RYI, SIR];
 export let bat = [TUV, YAV, NGM, LAV, KII];
 export let es = [AndriyParubiy, IrkaGer, MihaZabrod, SonyaFedyn, PetroRoshen]
-let ES = new PartyClass('ES', es)
-let SN = new PartyClass('sn', sn)
-let OPZJ = new PartyClass('opzj', opzj)
-let GOLOS = new PartyClass('golos', golos)
-let BAT = new PartyClass('bat', bat)
+let ES = new PartyClass(EVROPEYSKA_SOLIDARNIST, es)
+let SN = new PartyClass(SLUGA_NARODU, sn)
+let OPZJ = new PartyClass(OPZj, opzj)
+let GOLOS = new PartyClass(GOLOs, golos)
+let BAT = new PartyClass(BATKIVSCHYNA, bat)
 let vr2021 = new VrClass()
 
 
